@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.intro {
+    background: url("../img/BG.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 10px 200px 10px;
+    margin: 20px 0 10px 0;
+}
+
+.bg-blue {
+    background-color: #32348B !important;
+}
+
+.pink {
+    color: #FF9083 !important;
+}
+
+.bg-pink {
+    background-color: #FF9083 !important;
+}
+
+.face {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 6s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.btn-blue:hover {
+    background-color: #32348B !important;
+    border: 3px solid #fff;
+    color: #fff !important;
+    transition: 1.5s;
+}
+
+.quote:hover,
+.btn-b:hover,
+.social-btn:hover {
+    color: #fff !important;
+    border: 3px solid #fff !important;
+    transition: 1s;
+}
+
+.btn-pink:hover {
+    color: #fff !important;
+    border: 3px solid #FF9083 !important;
+    transition: 0.8s;
+}
+
+.btn-z {
+    border: 3px solid #FF9083 !important;
+}
+
+.btn-z:hover {
+    border: 3px solid #fff !important;
+    color: #fff !important;
+    transition: 1.5s;
+}
+
+.btn-zz:hover {
+    color: #fff !important;
+}
